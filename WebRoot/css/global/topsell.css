@@ -1,0 +1,21 @@
+#sy_biankuang {
+	BORDER-RIGHT: #c9e9f0 1px solid; BORDER-TOP: #c9e9f0 1px solid; BORDER-LEFT: #c9e9f0 1px solid; WIDTH: 190px; BORDER-BOTTOM: #c9e9f0 1px solid; font-color: #0000FF
+}
+#sy_biankuang .more {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #cc6600; PADDING-TOP: 3px
+}
+#sy_biankuang DIV.lanmu_font {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; PADDING-TOP: 10px; HEIGHT: 30px
+}
+#sy_biankuang UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#sy_biankuang UL LI A {
+	PADDING-LEFT: 14px
+}
+#sy_biankuang UL LI.bx {
+	FONT-FAMILY: 宋体; HEIGHT: 25px
+}
+#sy_biankuang UL LI.bx A {
+	PADDING-LEFT: 4px; FONT-FAMILY: 宋体
+}

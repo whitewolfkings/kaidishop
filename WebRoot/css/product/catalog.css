@@ -1,0 +1,67 @@
+#lefttable-top {
+	FONT-SIZE: 12px; BACKGROUND-IMAGE: url(/images/global/az-home_24.gif); PADDING-BOTTOM: 3px; HEIGHT: 18px
+}
+#lefttable-top .text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 5px; LETTER-SPACING: 0px; TEXT-ALIGN: left;
+}
+#lefttable-top .tdbg-left {
+	BACKGROUND-POSITION: left top; FLOAT: left; BACKGROUND-IMAGE: url(/images/global/az-home_22.gif); WIDTH: 7px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 7px
+}
+#lefttable-top .tdbg-right {
+	BACKGROUND-POSITION: right top; FLOAT: right; BACKGROUND-IMAGE: url(/images/global/az-home_25.gif); WIDTH: 7px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 7px
+}
+#lefttable {
+	BORDER-RIGHT: #5c9ec0 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #5c9ec0 1px solid; PADDING-TOP: 10px
+}
+#lefttable DIV.HackBox {
+	CLEAR: both; HEIGHT: 10px
+}
+#lefttable H4 {
+	PADDING-LEFT: 3px; FONT-SIZE: 14px; MARGIN: 3px 0px; COLOR: #cd6702; TEXT-DECORATION: none
+}
+#lefttable UL.line {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 5px 0px 0px; WIDTH: 95%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#lefttable UL.line_No1 {
+	DISPLAY: inline; MARGIN: 0px 5px 0px 10px
+}
+#lefttable LI {
+	PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: normal; BACKGROUND: url(/images/global/az-h4.gif) no-repeat right 50%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 3px 5px; COLOR: #069; WORD-BREAK: keep-all; PADDING-TOP: 0px; WHITE-SPACE: nowrap;FONT-SIZE: 12px;
+}
+#lefttable LI A {
+	COLOR: #0328c1; TEXT-DECORATION: none
+}
+#lefttable LI A:hover {
+	COLOR: #FF6600; TEXT-DECORATION: underline
+}
+#lefttable-bottom {
+	FONT-SIZE: 4px; BACKGROUND: url(/images/global/az-h5.gif) repeat-x 50% bottom; HEIGHT: 4px
+}
+#lefttable-bottom .tdbg-left {
+	BACKGROUND-POSITION: left top; FONT-SIZE: 1px; FLOAT: left; BACKGROUND-IMAGE: url(/images/global/az-home_72.gif); WIDTH: 7px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 4px
+}
+#lefttable-bottom .tdbg-right {
+	BACKGROUND-POSITION: right top; FONT-SIZE: 1px; FLOAT: right; BACKGROUND-IMAGE: url(/images/global/az-home_74.gif); WIDTH: 7px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 4px
+}
+
+#lefttable1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px
+}
+#lefttable1 DIV.HackBox {
+	CLEAR: both; HEIGHT: 10px
+}
+#lefttable1 H4 {
+	PADDING-LEFT: 3px; FONT-SIZE: 14px; MARGIN: 3px 0px; COLOR: #cd6702; TEXT-DECORATION: none
+}
+#lefttable1 UL.line {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 5px 5px 0px 0px; WIDTH: 95%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#lefttable1 LI {
+	PADDING-RIGHT: 10px; DISPLAY: inline; PADDING-LEFT: 5px; FONT-WEIGHT: normal; BACKGROUND: url(/images/global/az-h4.gif) no-repeat right 50%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 3px 5px; COLOR: #069; WORD-BREAK: keep-all; PADDING-TOP: 0px; WHITE-SPACE: nowrap;FONT-SIZE: 12px;
+}
+#lefttable1 LI A {
+	COLOR: #0328c1; TEXT-DECORATION: none
+}
+#lefttable1 LI A:hover {
+	COLOR: #f90; TEXT-DECORATION: underline
+}

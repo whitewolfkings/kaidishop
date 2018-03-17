@@ -1,0 +1,40 @@
+.publish_page_bottom{ width:982px; height:128px; padding:20px 0 15px 0;}
+.publish_page_bottom a:link,.publish_page_bottom a:visited{ color:#0041D3; text-decoration:none}
+.publish_page_bottom a:hover{ color:#ff7000; text-decoration:underline}
+.publish_page_bottom a:active{ color:#bc2931; text-decoration:underline}
+.publish_page_bottom *{padding:0;margin:0}
+
+.publish_page_bottom .b_left{ width:5px; height:127px; no-repeat; float:left}
+.publish_page_bottom .b_middle{width:972px;height:127px;float:left;color:#414141;text-align: left;border-collapse:collapse; border-top:solid 1px #cfcfcf}
+.publish_page_bottom .b_middle .title{ width:143px; padding-top:6px; padding-bottom:3px; background:url(http://images.dangdang.com/bottom/bj_red.gif) no-repeat 42px 12px}
+.publish_page_bottom .b_middle td{ padding-left:50px; background:url(http://images.dangdang.com/bottom/bj_blue.gif) no-repeat 42px 6px; font-size:12px}
+.publish_page_bottom .b_middle h2{ font-size:12px; font-weight:normal}
+.publish_page_bottom .b_middle .bj_no{ background:none}
+.publish_page_bottom .b_middle .width_1{ padding-left:80px; background:url(http://images.dangdang.com/bottom/bj_blue.gif) no-repeat 70px 6px}
+.publish_page_bottom .b_middle .t2{background:url(http://images.dangdang.com/bottom/bj_red.gif) no-repeat 70px 12px}
+.publish_page_bottom .b_middle .width_2{ width:130px; padding-left:30px; background:url(http://images.dangdang.com/bottom/bj_blue.gif) no-repeat 22px 6px}
+.publish_page_bottom .b_middle .t3{background:url(http://images.dangdang.com/bottom/bj_red.gif) no-repeat 22px 12px}
+.publish_page_bottom .b_right{ width:5px; height:127px; no-repeat; float:left}
+
+.publish_bottom_message{ width:982px;text-align:center; height:22px; font-size:12px}
+.publish_bottom_message a:link,.publish_bottom_message a:visited{ color:#0041D3; text-decoration:none}
+.publish_bottom_message a:hover{ color:#ff7000; text-decoration:underline}
+.publish_bottom_message a:active{ color:#bc2931; text-decoration:underline}
+.publish_bottom_message *{padding:0;margin:0}
+
+.publish_bottom_message ul{ list-style:none; margin-left:280px}
+.publish_bottom_message ul li{ float:left; width:83px; background:url(http://images.dangdang.com/bottom/bj_gray.gif) right no-repeat; padding-top:5px; height:17px}
+.publish_bottom_message ul .m_right{ background:none; padding-right:0}
+
+.publish_bottom_message2{ width:982px; height:48px; padding:8px 0 20px 0; font-size:12px;}
+.publish_bottom_message2 a:link,.publish_bottom_message2 a:visited{ color:#0041D3; text-decoration:none}
+.publish_bottom_message2 a:hover{ color:#ff7000; text-decoration:underline}
+.publish_bottom_message2 a:active{ color:#bc2931; text-decoration:underline}
+.publish_bottom_message2 *{padding:0;margin:0}
+.publish_bottom_message2 img{border:0}
+
+
+.publish_bottom_message2 .copyright{width:580px;height:12px;padding:18px 15px 0 0px;text-align:right;color:#414141;float:left;font-size:12px;}
+.publish_bottom_message2 .validate{ width:180px; height:48px; float:left}
+.publish_bottom_message2 .validate img{ float:left}
+.publish_bottom_message2 .validate p{ float:left; padding:18px 0 0 5px}

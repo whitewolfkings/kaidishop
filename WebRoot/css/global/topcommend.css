@@ -1,0 +1,35 @@
+#topcommend{
+}
+#topcommend #newtop {
+	WIDTH: 191px;
+}
+#topcommend #newlist {
+	BORDER-RIGHT: #ccbcad 1px solid; BORDER-TOP: 0px; BORDER-LEFT: #ccbcad 1px solid; WIDTH: 190px; BORDER-BOTTOM: #ccbcad 1px solid
+}
+#topcommend #newlist #newmore {
+	MARGIN: auto; WIDTH: 186px; BORDER-BOTTOM: #ccbcad 1px dashed; HEIGHT: 24px
+}
+#topcommend #newlist #newmore .title {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 80px; COLOR: #cc6600
+}
+#topcommend #newlist #newmore .more {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #cc6600; PADDING-TOP: 3px
+}
+#topcommend #newlist .newlist {
+	PADDING-BOTTOM: 4px; MARGIN: 4px auto 0px; OVERFLOW: hidden; WIDTH: 188px; BORDER-BOTTOM: #ccbcad 1px dashed
+}
+#topcommend #newlist .newimg {
+	FLOAT: left; WIDTH: 80px; HEIGHT: 80px;PADDING-BOTTOM: 0px;
+}
+#topcommend #newlist .newtitle {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 3px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 5px; WIDTH: 107px; COLOR: #333333; PADDING-TOP: 5px; 
+}
+#topcommend #newlist .newcontent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 107px; COLOR: #666; PADDING-TOP: 5px;
+}
+#topcommend #newlist .price {
+	FONT-WEIGHT: bold; FLOAT: right; WIDTH: 107px; COLOR: #aa0000
+}
+#topcommend #newlist .texttitle {
+	PADDING: 5px 2px 2px 10px;
+}

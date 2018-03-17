@@ -1,0 +1,75 @@
+#ContentBody{
+	position:relative;
+	width:970px;
+	margin:20px 0 0 0px;
+	text-align:left;
+	} 
+#ContentBody #Left{
+	margin-left:5px;
+	float:left;
+	width:740px;
+}
+#ContentBody #Right{
+	margin-left:15px;
+	margin-right:0px;
+	float:right;
+	clear:right;
+	width:200px;
+}
+#news #newsContent{font-size:14px;line-height: 25px;word-break : break-all;margin-left : 2px ;color:#000000;}
+#news h1{color:#000;font-size:18px;text-align:center;margin:10px 0 2px 0;}
+#news h4{font-size:12px;text-align:center;font-weight:normal;color:#555555;}
+
+#Comments{color:#000;font-size:12px;text-align:left;WIDTH: 100%! important;padding:30px 0 0 0;}
+#Comments ul{list-style-type:none;margin:0px 0 0 0px;}
+#Comments ul li{margin:0 0 12px 0}
+#Comments ul li h5{
+background:url(/images/global/p_bj.jpg) 0 0px repeat;
+padding:8px 0 0 9px;
+font-size:14px;
+font-weight:normal;
+height: 25px;
+margin-bottom:8px;
+}
+#Comments ul li p{
+margin:0 0 12px 8px;line-height: 25px;font-size:12px;
+}
+#Comments ul li span{
+padding:0 0 0 60px;
+color:#3E3E3E;
+font-size:12px;
+}
+.message3{height:55px; padding:5px 10px 0 5px; background:#f2f2f2;margin:15px 15px 10px 35px;word-break:break-all;word-wrap:break-word;}
+.message3 h3{ font-size:12px; padding-top:2px; padding-left:8px;margin:0 0 10px 0px;}
+.message3 em{color:#ff7100;font-style:normal; font-weight:bold;}
+.message3 p{margin:0 0 0px 0px;padding:0px 0px 0 0px;}
+
+#commentAction {background-color:#FEEBED;padding:12px 0 8px 8px;margin-top:30px}
+
+#sy_biankuang {
+	BORDER-RIGHT: #c9e9f0 1px solid; BORDER-TOP: #c9e9f0 1px solid; BORDER-LEFT: #c9e9f0 1px solid; WIDTH: 190px; BORDER-BOTTOM: #c9e9f0 1px solid; font-color: #0000FF
+}
+#sy_biankuang A {
+	COLOR: #011254
+}
+#sy_biankuang .more {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #cc6600; PADDING-TOP: 3px
+}
+#sy_biankuang DIV.lanmu_font {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #be6400; PADDING-TOP: 10px; HEIGHT: 30px
+}
+#sy_biankuang UL.number_list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#sy_biankuang UL.number_list LI A {
+	PADDING-LEFT: 14px
+}
+#sy_biankuang UL.number_list LI.b1 {
+	BACKGROUND: url(/images/global/sy4.jpg) no-repeat left 25%; HEIGHT: 25px
+}
+#sy_biankuang DIV.sy_xinpintuijian_font {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cc6600; LINE-HEIGHT: 35px; HEIGHT: 35px
+}
+#sy_biankuang DIV.sy_dianhua {
+	PADDING-LEFT: 25px; FONT-WEIGHT: bold; BORDER-BOTTOM-COLOR: #ffffff; WIDTH: 165px; COLOR: #666666
+}

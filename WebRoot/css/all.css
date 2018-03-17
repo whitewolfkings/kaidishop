@@ -1,0 +1,35 @@
+table {  font-size:9pt;
+         line-height: 14pt  }
+         
+body,p,li {  font-size:9pt;
+       line-height: 14pt  }
+
+.font12 {  font-size:12pt;
+       line-height: 14pt  }
+      
+td {font-size:9pt;
+    line-heigh:14pt}
+    
+a:link {  font-size: 9pt; 
+     color: #333399; 
+     text-decoration: none; 
+     line-height: 14pt   }    
+    
+a {  font-size: 9pt; 
+     color: #333366; 
+     text-decoration: none; 
+     line-height: 14pt   }
+     
+a:hover {  font-size: 9pt; 
+           color: #FF0000; 
+           text-decoration: underline; 
+           line-height: 14pt   }
+
+.btn {  font-size: 9px; background-color: #B4D2D8; background-position: center center; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0px}
+.btt {  font-size: 9pt; background-color: #99CCFF; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0px; cursor: hand}
+.txtfd {  font-size: 9pt; border-color: black black #000000; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+a:active {  color: #FF0000}
+.textfield_ {  border-color: black black #000000; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.noborder {  font-size: 9pt; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.thin {  font-size: 9pt; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.btnFn{cursor:pointer!important;cursor:hand;background-image:url(/images/bg_btn.gif);background-color:#E1F1D4; text-align:center; height:22px; width:74px; padding:0px!important;padding-top:3px; border:1px solid #84BD61; color:#005500}/*手形*/

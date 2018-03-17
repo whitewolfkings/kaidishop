@@ -1,0 +1,126 @@
+#position {
+	PADDING: 0px 0px 0 0px; HEIGHT: 30px; width:965px;margin-left: 0px;
+}
+ A:link {
+	COLOR: #0041d3; TEXT-DECORATION: none
+}
+ A:visited {
+	COLOR: #0041d3; TEXT-DECORATION: none
+}
+ A:hover {
+	COLOR: #ff7000; TEXT-DECORATION: underline
+}
+ A:active {
+	COLOR: #bc2931; TEXT-DECORATION: underline
+}
+#position EM {
+	COLOR: #ff7100; FONT-STYLE: normal
+}
+#ContentBody{
+	position:relative;
+	width:970px;
+	margin:20px 0 0 0;
+	text-align:left;
+} 
+#ContentBody #Right{
+	float:right;
+	clear:right;
+	width:750px;
+}
+.browse_left {
+	FLOAT: left; WIDTH: 170px;PADDING-LEFT: 0px;
+}
+.browse_left .browse {
+	PADDING-LEFT: 0px;BORDER-RIGHT: #c5c5c5 1px solid; BORDER-TOP: #c5c5c5 1px solid; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 10px; BORDER-LEFT: #c5c5c5 1px solid; WIDTH: 190px; BORDER-BOTTOM: #c5c5c5 1px solid; BACKGROUND-COLOR: #f1f8ff
+}
+.browse_left .browse .browse_t {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(/images/global/bj_1.gif) repeat-x; PADDING-BOTTOM: 0px; WIDTH: 180px; PADDING-TOP: 5px; HEIGHT: 17px
+}
+.browse_left .browse H2 {
+	margin: 0px 0px 0 0px;PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; PADDING-TOP: 13px
+}
+.browse_left .browse H2 .gray {
+	COLOR: #909090
+}
+.browse_left .browse ul{margin: 0px 0px 0 0px;list-style-type:none; padding:5px 0 0 0}
+.browse_left .browse ul li{padding:5px 0 5px 20px; display:block;}
+.browse_left .browse ul li img{ width:108px; height:19px; margin:5px 0 0 7px;}
+.browse_left .browse ul .bj_blue{ background:url(/images/global/bj_blue.gif) no-repeat 10px 5px;}
+.browse_left .browse ul .bj_red{ background:url(/images/global/bj_red.gif) no-repeat 10px 5px;}
+.browse_left .browse ul .kk{ font-weight:bold; color:#ff7100;}
+
+.guopiprice {color: #AA0000;text-decoration: none;font-size:12px;MARGIN-top: 10px;}
+
+#ContentBody #Right .right_left {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 200px; HEIGHT: 270px;TEXT-ALIGN: center
+}
+#ContentBody #Right #main_image {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 200px; HEIGHT: 240px
+}
+#ContentBody #Right .right_right {
+	FLOAT: right; MARGIN-LEFT: 15px;color:#2F2F2F; FONT-SIZE: 14px;margin-bottom: 0px;width:355px
+}
+#ContentBody #Right .right_right .right_desc UL {
+	FLOAT: left; MARGIN: 12px 0px;  LIST-STYLE-TYPE: none;padding: 0px 0px 0 0px;CLEAR: both;
+}
+#ContentBody #Right .right_right .right_desc LI {
+	FLOAT: left; WIDTH: 170px; HEIGHT: 20px;LIST-STYLE-TYPE: none;
+}
+#ContentBody #Right .right_right .right_desc .li2 {
+	WIDTH: 200px; WHITE-SPACE: nowrap;
+}
+#ContentBody #Right .right_right UL {
+	CLEAR: both; LIST-STYLE-TYPE: none;MARGIN: 13px 0 0 0px;padding: 0px 0px 0 0px;
+}
+#ContentBody #Right .right_img {
+	MARGIN-TOP: 16px; HEIGHT: 22px;TEXT-ALIGN: left;padding-right: 40px;
+}
+#ContentBody #Right .right_img IMG {
+	CURSOR: pointer
+}
+#ContentBody #Right .right_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+#ContentBody #Right .right_blank {
+	CLEAR: both; BACKGROUND-IMAGE: url(/images/right_blank.gif); MARGIN-BOTTOM: 5px; WIDTH: 100%; HEIGHT: 24px
+}
+#ContentBody #Right .right_title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #28437d
+}
+#ContentBody #Right .right_content {
+	MARGIN: 6px 0px; LINE-HEIGHT: 160%; FONT-SIZE: 14px;color:#2F2F2F
+}
+#ContentBody #Right .right_content_movie UL {
+	FLOAT: left; MARGIN: 12px 0px; WIDTH: 100%! important; LIST-STYLE-TYPE: none;color:#2F2F2F; FONT-SIZE: 14px;
+}
+#ContentBody #Right .right_content_movie LI {
+	FLOAT: left; WIDTH: 250px; HEIGHT: 20px
+}
+#ContentBody #Right #browse_left{float:left;text-align: left;width: 570px;}
+#ContentBody #Right #browse_right{float:right;width: 162px;text-align: left;}
+/*商品分类*/	
+#sy_biankuang {border: 1px solid #CCBCAD;width:162px;font-color:#0000FF;}
+#sy_biankuang a{color:#011254;}
+#sy_biankuang a:hover{color:#ff5600;text-decoration:underline;}
+#sy_biankuang ul{color:#003BC5;}
+div.sy_xinpintuijian_font{font-size:14px;color: #CC6600;font-weight:bold;padding-left:10px;height:35px;line-height: 35px;}
+div.sy_dianhua{width:152px;color: #666666;font-weight:bold;padding-left:10px;border-bottom-color: #FFFFFF;}
+#Comments{color:#000;font-size:12px;text-align:left;}
+#Comments ul{list-style-type:none;margin:0px 0 0 0px;}
+#Comments ul li{margin:0 0 12px 0}
+#Comments ul li h5{
+background:url(/images/global/right_bar.jpg) 0 0px repeat;
+padding:8px 0 0 9px;
+font-size:12px;
+font-weight:normal;
+height: 25px;
+margin-bottom:8px;
+}
+#Comments ul li p{
+margin:0 0 12px 8px
+}
+#Comments ul li span{
+padding:0 0 0 60px;
+color:#3E3E3E;
+}
+#commentAction {background-color:#EEF7FF;padding:12px 0 8px 8px;margin-top:30px}

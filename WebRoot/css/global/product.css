@@ -1,0 +1,117 @@
+#position{
+	position:relative;
+	width:985px;
+	clear:right;
+	margin:0px auto 10px;
+	text-align:left;
+} 
+
+#ContentBody{
+	position:relative;
+	width:985px;
+	margin:20px auto 10px;
+	text-align:left;
+} 
+#ContentBody #Left{
+	margin-right:15px;
+	float:left;
+	width:190px;
+}
+#ContentBody #Right{
+	float:right;
+	clear:right;
+	width:780px;
+}
+#ContentBody #Left .left_top {
+	FONT-SIZE: 13px; BACKGROUND-IMAGE: url(/images/global/forum_title_bg.gif); WIDTH: 190px; COLOR: #fff;font-weight:bold; PADDING-TOP: 4px; HEIGHT: 19px; TEXT-ALIGN: center
+}
+#ContentBody #Left .left_content {
+	BORDER-RIGHT: #c5ddff 1px solid; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 8px; BORDER-LEFT: #c5ddff 1px solid; WIDTH: 164px; PADDING-TOP: 8px; BORDER-BOTTOM: #c5ddff 1px solid
+}
+#ContentBody #Left .left_content UL {
+	LIST-STYLE-TYPE: none;BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#ContentBody #Left .left_content LI {
+	MARGIN: 5px 0px
+}
+#ContentBody #Left .left_content .more {
+	TEXT-ALIGN: right
+}
+#ContentBody #Left .left_content .nava {
+	PADDING-LEFT: 8px
+}
+#ContentBody #Left .left_content .more A:link {
+	COLOR: #0042d1
+}
+#ContentBody #Left .left_content .more A:visited {
+	COLOR: #0042d1
+}
+#ContentBody #Left .left_content .nava A:link {
+	COLOR: #0042d1
+}
+#ContentBody #Left .left_content .nava A:visited {
+	COLOR: #0042d1
+}
+#ContentBody #Left .left_blank {
+	WIDTH: 188px; HEIGHT: 12px
+}
+
+#ContentBody #Right .right_left {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 180px; HEIGHT: 250px
+}
+#ContentBody #Right .right_right {
+	FLOAT: left; MARGIN-LEFT: 8px;color:#2F2F2F; FONT-SIZE: 14px;margin-bottom: 0px;
+}
+#ContentBody #Right .right_right .right_desc UL {
+	FLOAT: left; MARGIN: 12px 0px;  LIST-STYLE-TYPE: none
+}
+#ContentBody #Right .right_right .right_desc LI {
+	FLOAT: left; WIDTH: 170px; WHITE-SPACE: nowrap; HEIGHT: 20px
+}
+#ContentBody #Right .right_right UL {
+	CLEAR: both; LIST-STYLE-TYPE: none;MARGIN: 5px 0 0 0px
+}
+#ContentBody #Right .right_img {
+	MARGIN-TOP: 16px; HEIGHT: 22px;TEXT-ALIGN: left;padding-right: 40px;
+}
+#ContentBody #Right .right_img IMG {
+	CURSOR: pointer
+}
+#ContentBody #Right .right_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+#ContentBody #Right .right_blank {
+	CLEAR: both; BACKGROUND-IMAGE: url(/images/global/right_blank.gif); MARGIN-BOTTOM: 5px; WIDTH: 100%; HEIGHT: 24px
+}
+#ContentBody #Right .right_title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #28437d
+}
+#ContentBody #Right .right_content {
+	MARGIN: 6px 0px; LINE-HEIGHT: 160%; FONT-SIZE: 14px;color:#2F2F2F
+}
+#ContentBody #Right .right_content_movie UL {
+	FLOAT: left; MARGIN: 12px 0px; WIDTH: 100%! important; LIST-STYLE-TYPE: none;color:#2F2F2F; FONT-SIZE: 14px;
+}
+#ContentBody #Right .right_content_movie LI {
+	FLOAT: left; WIDTH: 250px; HEIGHT: 20px
+}
+
+#Comments{color:#000;font-size:12px;text-align:left;}
+#Comments ul{list-style-type:none;margin:0px 0 0 0px;}
+#Comments ul li{margin:0 0 12px 0}
+#Comments ul li h5{
+background:url(/images/global/right_bar.jpg) 0 0px repeat;
+padding:8px 0 0 9px;
+font-size:12px;
+font-weight:normal;
+height: 25px;
+margin-bottom:8px;
+}
+#Comments ul li p{
+margin:0 0 12px 8px
+}
+#Comments ul li span{
+padding:0 0 0 60px;
+color:#3E3E3E;
+}
+#commentAction {background-color:#EEF7FF;padding:12px 0 8px 8px;margin-top:30px}

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+<struts-config>
+	<form-beans>
+		<form-bean name="producttypeform" type="cn.itcast.web.formbean.product.ProductTypeForm"/>
+		<form-bean name="brandform" type="cn.itcast.web.formbean.product.BrandForm"/>
+		<form-bean name="uploadfileform" type="cn.itcast.web.formbean.uploadfile.UploadfileForm"/>
+		<form-bean name="productform" type="cn.itcast.web.formbean.product.ProductForm"/>
+		<form-bean name="frontProductForm" type="cn.itcast.web.formbean.product.FrontProductForm"/>
+		<form-bean name="buyerForm" type="cn.itcast.web.formbean.user.BuyerForm"/>
+		<form-bean name="buyCartForm" type="cn.itcast.web.formbean.shopping.BuyCartForm"/>
+		<form-bean name="deliverForm" type="cn.itcast.web.formbean.shopping.DeliverForm"/>
+		<form-bean name="shoppingFinishForm" type="cn.itcast.web.formbean.shopping.ShoppingFinishForm"/>
+		<form-bean name="orderForm" type="cn.itcast.web.formbean.book.OrderForm"/>
+		<form-bean name="departmentForm" type="cn.itcast.web.formbean.privilege.DepartmentForm"/>
+		<form-bean name="employeeForm" type="cn.itcast.web.formbean.privilege.EmployeeForm"/>
+		<form-bean name="privilegeGroupForm" type="cn.itcast.web.formbean.privilege.PrivilegeGroupForm"/>
+		<form-bean name="productQueryForm" type="cn.itcast.web.formbean.product.ProductQueryForm"/>
+	</form-beans>
+	<global-forwards>
+		<forward name="message" path="/WEB-INF/page/share/message.jsp" />
+		<forward name="directUrl" path="/WEB-INF/page/share/directUrl.jsp"/>
+	</global-forwards>
+	<action-mappings>
+		<!-- 系统初始化 -->
+		<action path="/system/init"/>
+		<!-- 控制台主页 -->
+		<action path="/control/center/main" forward="/WEB-INF/page/controlcenter/default.jsp"/>
+		<action path="/control/center/top" forward="/WEB-INF/page/controlcenter/top.jsp"/>
+		<action path="/control/center/left" forward="/WEB-INF/page/controlcenter/menu.jsp"/>
+		<action path="/control/center/right" forward="/WEB-INF/page/controlcenter/right.jsp"/>
+		<action path="/control/center/end" forward="/WEB-INF/page/controlcenter/end.jsp"/>
+				
+		<!-- 产品类别分页显示 -->
+		<action path="/control/product/type/list" name="producttypeform" scope="request">
+			<forward name="list" path="/WEB-INF/page/product/producttypelist.jsp"/>
+		</action>
+		<!-- 产品类别管理 -->
+		<action path="/control/product/type/manage" name="producttypeform" scope="request" parameter="method">
+			<forward name="add" path="/WEB-INF/page/product/add_productType.jsp"/>
+			<forward name="edit" path="/WEB-INF/page/product/edit_productType.jsp"/>
+			<forward name="query" path="/WEB-INF/page/product/query_productType.jsp"/>
+		</action>
+		
+		<!-- 产品品牌分页显示 -->
+		<action path="/control/brand/list" name="brandform" scope="request">
+			<forward name="list" path="/WEB-INF/page/product/brandlist.jsp"/>
+		</action>
+		<!-- 产品产品管理 -->
+		<action path="/control/brand/manage" name="brandform" scope="request" parameter="method">
+			<forward name="add" path="/WEB-INF/page/product/add_brand.jsp"/>
+			<forward name="edit" path="/WEB-INF/page/product/edit_brand.jsp"/>
+			<forward name="query" path="/WEB-INF/page/product/query_brand.jsp"/>
+		</action>
+		
+		<!-- 上传文件管理 -->
+		<action path="/control/uploadfile/manage" name="uploadfileform" scope="request" parameter="method">
+			<forward name="upload" path="/WEB-INF/page/uploadfile/upload.jsp"/>
+			<forward name="uploadfinish" path="/WEB-INF/page/uploadfile/fileuploadfinish.jsp"/>
+			<forward name="error" path="/WEB-INF/page/uploadfile/error.jsp"/>
+		</action>
+		<!-- 上传文件分页显示 -->
+		<action path="/control/uploadfile/list" name="uploadfileform" scope="request">
+			<forward name="list" path="/WEB-INF/page/uploadfile/uploadfilelist.jsp"/>
+		</action>
+		
+		<!-- 产品分页显示 -->
+		<action path="/control/product/list" name="productform" scope="request">
+			<forward name="list" path="/WEB-INF/page/product/productlist.jsp"/>
+		</action>
+		
+		<!-- 产品管理 -->
+		<action path="/control/product/manage" name="productform" scope="request" parameter="method">
+			<forward name="add" path="/WEB-INF/page/product/add_product.jsp"/>
+			<forward name="edit" path="/WEB-INF/page/product/edit_product.jsp"/>
+			<forward name="typeselect" path="/WEB-INF/page/product/productTypeSelect.jsp"/>
+			<forward name="query" path="/WEB-INF/page/product/query_product.jsp"/>
+		</action>
+		
+		<!-- 产品样式显示 -->
+		<action path="/control/product/style/list" name="productform" scope="request">
+			<forward name="list" path="/WEB-INF/page/product/productstylelist.jsp"/>
+		</action>
+		
+		<!-- 产品样式管理 -->
+		<action path="/control/product/style/manage" name="productform" scope="request" parameter="method">
+			<forward name="add" path="/WEB-INF/page/product/add_productstyle.jsp"/>
+			<forward name="edit" path="/WEB-INF/page/product/edit_productstyle.jsp"/>
+		</action>
+		<!-- 网站用户列表显示 -->
+		<action path="/control/user/list" name="buyerForm" scope="request" validate="false">
+			<forward name="list" path="/WEB-INF/page/user/userlist.jsp"/>
+		</action>
+		<!-- 网站用户管理 -->
+		<action path="/control/user/manage" name="buyerForm" scope="request" validate="false" parameter="method">
+		</action>
+		<action path="/control/user/query" forward="/WEB-INF/page/user/query.jsp"/>
+		<!-- 订单分页列表显示 -->
+		<action path="/control/order/list" name="orderForm" scope="request" validate="false">
+			<forward name="list" path="/WEB-INF/page/book/orderlist.jsp"/>
+		</action>				
+		<!-- 订单信息显示 -->
+		<action path="/control/order/view" name="orderForm" scope="request" validate="false">
+			<forward name="order" path="/WEB-INF/page/book/orderview.jsp"/>
+		</action>			
+		<!-- 订单查询界面 -->
+		<action path="/control/order/query" forward="/WEB-INF/page/book/queryorder.jsp"/>		
+		<!-- 订单管理 -->
+		<action path="/control/order/manage" name="orderForm" scope="request" validate="false" parameter="method">
+			<forward name="modifyContact" path="/WEB-INF/page/book/modifyContactInfo.jsp"/>
+			<forward name="modifyDeliver" path="/WEB-INF/page/book/modifyDeliverInfo.jsp"/>
+			<forward name="modifyPaymentWay" path="/WEB-INF/page/book/modifyPaymentWay.jsp"/>
+			<forward name="modifyDeliverWay" path="/WEB-INF/page/book/modifyDeliverWay.jsp"/>
+			<forward name="modifyProductAmount" path="/WEB-INF/page/book/modifyProductAmount.jsp"/>
+			<forward name="modifydeliverFee" path="/WEB-INF/page/book/modifydeliverFee.jsp"/>
+			<forward name="print" path="/WEB-INF/page/book/print.jsp"/>
+			<forward name="addmessage" path="/WEB-INF/page/book/ordermessage.jsp"/>
+		</action>
+		<!-- 锁定订单列表 -->
+		<action path="/contorl/lockorder/list" name="orderForm" scope="request" validate="false">
+			<forward name="list" path="/WEB-INF/page/book/orderlist.jsp"/>
+		</action>		
+						
+		<!-- 部门列表 -->
+		<action path="/control/department/list" name="departmentForm" scope="request" validate="false">
+			<forward name="list" path="/WEB-INF/page/department/departmentlist.jsp"/>
+		</action>					
+		<!-- 部门管理 -->
+		<action path="/control/department/manage" name="departmentForm" scope="request" validate="false" parameter="method">
+			<forward name="add" path="/WEB-INF/page/department/adddepartment.jsp"/>
+			<forward name="edit" path="/WEB-INF/page/department/editdepartment.jsp"/>
+		</action>					
+		<!-- 员工列表 -->
+		<action path="/control/employee/list" name="employeeForm" scope="request" validate="false">
+			<forward name="list" path="/WEB-INF/page/department/employeelist.jsp"/>
+		</action>			
+		<action path="/control/employee/manage" name="employeeForm" scope="request" validate="false" parameter="method">
+			<forward name="add"  path="/WEB-INF/page/department/addemployee.jsp"/>
+			<forward name="checkResult"  path="/WEB-INF/page/department/usernameIsExsit.jsp"/>
+			<forward name="edit"  path="/WEB-INF/page/department/editemployee.jsp"/>
+			<forward name="query" path="/WEB-INF/page/department/query.jsp"/>
+		</action>	
+		<!-- 员工登录 -->
+		<action path="/employee/logon" name="employeeForm" scope="request" validate="false">
+			<forward name="main" path="/control/center/main.do" redirect="true"/>
+			<forward name="logon" path="/WEB-INF/page/department/logon.jsp"/>
+		</action>					
+		<!-- 员工退出登录 -->
+		<action path="/employee/logout" name="employeeForm" scope="request" validate="false">
+			<forward name="logon" path="/employee/logon.do" redirect="true"/>
+		</action>					
+				
+		<!-- 权限组列表 -->
+		<action path="/control/privilegegroup/list" name="privilegeGroupForm" scope="request" validate="false">
+			<forward name="list" path="/WEB-INF/page/department/privilegegrouplist.jsp"/>
+		</action>
+		<!-- 权限组管理 -->				
+		<action path="/control/privilegegroup/manage" name="privilegeGroupForm" scope="request" validate="false" parameter="method">
+			<forward name="add"  path="/WEB-INF/page/department/addprivilegegroup.jsp"/>
+			<forward name="edit"  path="/WEB-INF/page/department/editprivilegegroup.jsp"/>
+		</action>					
+				
+				
+		<!-- #####################################前台显示######################################## -->
+		<!-- 网站用户注册 -->
+		<action path="/user/reg" name="buyerForm" scope="request" validate="false" parameter="method">
+			<forward name="reg" path="/WEB-INF/page/user/userReg.jsp"/>
+			<forward name="regFinish" path="/WEB-INF/page/user/regFinish.jsp"/>
+			<forward name="checkuser" path="/WEB-INF/page/user/checkuser.jsp"/>
+		</action>
+		<!-- 网站用户登录 -->
+		<action path="/user/logon" name="buyerForm" scope="request" validate="false">
+			<forward name="logon" path="/WEB-INF/page/user/logon.jsp"/>
+		</action>
+		<!-- 网站用户退出登录 -->
+		<action path="/user/logout" name="buyerForm" scope="request">
+			<forward name="logon" redirect="true" path="/user/logon.do"/>
+		</action>
+		<!-- 产品列表显示 -->
+		<action path="/product/list/display" name="frontProductForm" scope="request">
+			<forward name="list_image" path="/WEB-INF/page/product/frontpage/productlist.jsp"/>
+			<forward name="list_imagetext" path="/WEB-INF/page/product/frontpage/productlist_text.jsp"/>
+		</action>
+		
+		<!-- 产品样式管理 -->
+		<action path="/product/switch" name="frontProductForm" scope="request" parameter="method">
+			<forward name="topsell" path="/WEB-INF/page/product/frontpage/topsell.jsp"/>
+			<forward name="viewHistory" path="/WEB-INF/page/product/frontpage/viewHistory.jsp"/>
+			<forward name="showimage" path="/WEB-INF/page/product/frontpage/showimage.jsp"/>
+		</action>
+		<!-- 产品显示 -->
+		<action path="/product/view" name="frontProductForm" scope="request">
+			<forward name="product" path="/WEB-INF/page/product/frontpage/productview.jsp"/>
+		</action>
+		<!--购物车 -->
+		<action path="/shopping/cart" name="buyCartForm" scope="request">
+			<forward name="buyCart" path="/WEB-INF/page/shopping/cart.jsp"/>
+		</action>		
+		<!--购物车管理 -->
+		<action path="/shopping/cart/manage" name="buyCartForm" scope="request" parameter="method">
+		</action>
+		<!--配送信息填写界面 -->
+		<action path="/customer/shopping/deliver" name="deliverForm" scope="request">
+			<forward name="deliverInfo" path="/WEB-INF/page/shopping/deliverInfo.jsp"/>
+		</action>	
+		<!--保存配送信息 -->
+		<action path="/customer/shopping/manage" name="deliverForm" scope="request" parameter="method">
+		</action>	
+		<!--送货方式与支付方式选择界面 -->
+		<action path="/customer/shopping/paymentway" name="deliverForm" scope="request">
+			<forward name="paymentway" path="/WEB-INF/page/shopping/paymentway.jsp"/>
+		</action>
+		<!--订单信息确认界面 -->
+		<action path="/customer/shopping/confirm" name="deliverForm" scope="request">
+			<forward name="confirm" path="/WEB-INF/page/shopping/confirm.jsp"/>
+		</action>
+		<!--订单提交结果页面 -->
+		<action path="/shopping/finish" name="shoppingFinishForm" scope="request">
+			<forward name="bankremittance" path="/WEB-INF/page/shopping/finish_bankremittance.jsp"/>
+			<forward name="cod" path="/WEB-INF/page/shopping/finish_cod.jsp"/>
+			<forward name="net" path="/WEB-INF/page/shopping/finish_net.jsp"/>
+			<forward name="postofficeremittance" path="/WEB-INF/page/shopping/finish_postofficeremittance.jsp"/>
+		</action>	
+		
+		<!-- 商品搜索 -->
+		<action path="/product/query" name="productQueryForm" scope="request">
+			<forward name="list" path="/WEB-INF/page/product/frontpage/queryproductlist.jsp"/>
+		</action>	
+		<!-- 找回密码 输入用户名界面 -->
+		<action path="/user/findpassword" forward="/WEB-INF/page/user/findPassword.jsp"/>	
+		<!-- 找回密码 发送邮件 -->
+		<action path="/user/post" name="buyerForm" scope="request" parameter="method">
+			<forward name="findpassword" path="/WEB-INF/page/user/findPassword.jsp"/>
+			<forward name="findpassword2" path="/WEB-INF/page/user/findPassword2.jsp"/>
+			<forward name="findPassword3" path="/WEB-INF/page/user/findPassword3.jsp"/>
+			<forward name="errorresult" path="/WEB-INF/page/user/errorresult.jsp"/>
+		</action>			
+						
+	</action-mappings>
+	<controller>
+	    <set-property property="processorClass" value="cn.itcast.web.action.privilege.PrivilegeRequestProcessor"/>
+	</controller> 
+</struts-config>

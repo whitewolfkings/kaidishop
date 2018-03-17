@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+	<aop:aspectj-autoproxy/>
+	<context:component-scan base-package="cn.itcast"/>	
+    <!--  使用数据源和指定persistence.xml位置的方式创建entityManagerFactory,如果使用的不是hibernate JPA实现,
+    需要在tomcat作一些特殊配置.具体参考手册
+    注意:使用该方式需要把persistence.xml中的hibernate.connection.driver_class,hibernate.connection.username,hibernate.connection.password,hibernate.connection.url配置删除
+   -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="${driverClass}"/>
+		<property name="jdbcUrl" value="${jdbcUrl}"/>
+		<property name="user" value="${user}"/>
+		<property name="password" value="${password}"/>
+		<!-- 初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3  -->
+		<property name="initialPoolSize" value="1"/>
+		<!-- 连接池中保留的最小连接数。 -->
+		<property name="minPoolSize" value="1"/>	
+		<!-- 连接池中保留的最大连接数。Default: 15  -->
+		<property name="maxPoolSize" value="300"/>
+		<!-- 最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。Default: 0  -->
+		<property name="maxIdleTime" value="60"/>	
+		<!-- 当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3  -->
+		<property name="acquireIncrement" value="5"/>	
+		<!-- 每60秒检查所有连接池中的空闲连接。Default: 0  -->
+		<property name="idleConnectionTestPeriod" value="60"/>
+	</bean>
+
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml" />
+		<property name="loadTimeWeaver">
+	          <bean class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver"/>
+	    </property>
+	</bean> 
+	
+   <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+   </bean>
+   
+   <tx:annotation-driven transaction-manager="transactionManager"/>
+   
+   <bean id="compass" class="org.compass.spring.LocalCompassBean">
+		<property name="classMappings">
+			<list>
+				<value>cn.itcast.bean.product.ProductInfo</value>
+				<value>cn.itcast.bean.product.Brand</value>
+				<value>cn.itcast.bean.product.ProductStyle</value>
+				<value>cn.itcast.bean.product.ProductType</value>
+			</list>
+		</property>
+		<property name="compassSettings">
+			<props>
+				<prop key="compass.engine.analyzer.default.type">net.paoding.analysis.analyzer.PaodingAnalyzer</prop>
+				<prop key="compass.engine.connection">file://d:/index</prop>
+				<!-- 在内存中建立索引
+				<prop key="compass.engine.connection">ram://index</prop>
+				-->
+				<prop key="compass.engine.highlighter.default.formatter.simple.pre"><![CDATA[<font color='red'>]]></prop>
+				<prop key="compass.engine.highlighter.default.formatter.simple.post"><![CDATA[</font>]]></prop>
+				<prop key="compass.transaction.factory">org.compass.spring.transaction.SpringSyncTransactionFactory</prop>
+			</props>
+		</property>
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+
+	<!-- 自动完成 索引的添加/更新/删除操作-->
+	<bean id="compassGps" class="org.compass.gps.impl.SingleCompassGps" init-method="start" destroy-method="stop">
+		<property name="compass" ref="compass" />
+		<property name="gpsDevices">
+			<list>
+				<!-- 设置JPA驱动 -->
+				<bean class="org.compass.gps.device.jpa.JpaGpsDevice">
+						<property name="name" value="jpaDevice" />
+						<property name="entityManagerFactory" ref="entityManagerFactory" />
+						<property name="injectEntityLifecycleListener" value="true"/>
+				</bean>
+			</list>
+		</property>
+	</bean>	
+</beans>

@@ -1,0 +1,120 @@
+.OkMsg{
+	padding:5px 5px 5px 25px;
+	border:1px solid #00BE00;
+	background:#E6FFE6 url(/images/login/standard_msg_ok.gif) 5px 5px no-repeat;
+	color:#000;
+}
+.WarningMsg{
+	padding:5px 5px 5px 25px;
+	border:1px solid #00A8FF;
+	background:#E2F5FF url(/images/login/standard_msg_warning.gif) 5px 5px no-repeat;	
+	color:#000;
+}
+.ErrorMsg{
+	padding:5px 5px 5px 25px;
+	border:1px solid #F60;
+	background:#FFF2E9 url(/images/login/standard_msg_error.gif) 5px 5px no-repeat;	
+	color:#000;
+}
+.HintMsg{
+	padding:5px 5px 5px 5px;
+	border:1px solid #FFF;
+	background-color:transparent;
+	background-image:none;
+	color:#999;
+}
+.HackBox{
+   border-top:1px solid transparent !important;
+   border-top:0;
+   clear:both;
+}
+
+#Content{
+	position:relative;
+	margin-bottom:25px;
+	text-align:center;
+}
+#Main{
+	margin:0 auto;
+	width:740px;
+	text-align:left;
+}
+ul.RegForm{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	background:transparent url(/images/login/ul_bk.gif) left bottom repeat-y;
+}
+ul.RegForm li{
+	width:100%;
+	margin:0;
+	padding:0;
+	background:transparent url(/images/login/li_bk.gif) left bottom repeat-y;
+}
+ul.RegForm li.Title{
+	padding:20px 0 10px 0;
+	font-size:14px;
+	color:#F30;
+	background:transparent url(/images/login/title_bk.gif) left top repeat-y;
+}
+ul.RegForm li .Hint{
+	float:left;
+	width:160px;
+	font-size:14px;
+	text-align:right;
+	margin-right:5px;
+	line-height:28px;
+}
+ul.RegForm li .Input{
+	float:left;
+	width:190px;
+}
+ul.RegForm li .Info{
+	float:left;
+	width:380px;
+	margin:1px 0 5px;
+}
+p.SubmitBox{
+	text-align:center;
+	background:none;
+}
+p.SubmitBox input{
+	display:block;
+	height:30px;
+	background-color:#DADADA;
+	margin:10px auto 20px;
+}
+#check_username{
+	margin-top:5px;
+}
+
+div.HintMsg{
+	margin:0;
+	color:#111;
+}
+div.HintMsg a:link,div.HintMsg a:visited{
+	color:#04D;
+}
+
+li#ReadContract{
+	margin:20px 0 10px;
+	line-height:200%;
+	text-align:center;
+}
+li#ReadContract #ContractContent{
+	margin:0 auto;
+	width:86%;
+	height:60px;
+	padding:5px;
+	border:1px solid #CCC;
+	background-color:#FAFAFA;
+	text-align:left;
+	overflow:auto;
+}
+li#ReadContract #ContractContent p{
+	margin:0;
+	line-height:150%;
+	text-indent:24px;
+}
+#errorinfo{margin:12px;}
+#errorMessage{padding:8px 0px 5px 25px;color:#009900}

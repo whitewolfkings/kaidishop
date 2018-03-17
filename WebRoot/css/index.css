@@ -1,0 +1,280 @@
+A {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.blueline {
+	FONT-SIZE: 12px; COLOR: #0328c1
+}
+A.blueline:link {
+	FONT-SIZE: 12px; COLOR: #0328c1
+}
+A.blueline:visited {
+	FONT-SIZE: 12px; COLOR: #0328c1
+}
+A.blueline:hover {
+	FONT-SIZE: 12px; COLOR: #0328c1
+}
+TEXTAREA {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+IMG {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+unknown {
+	LINE-HEIGHT: 18px; TEXT-DECORATION: none
+}
+TR {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY: "MS Shell Dlg", "Tahoma", "sans-serif"
+}
+TH {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; LINE-HEIGHT: 18px; FONT-FAMILY: "MS Shell Dlg", "Tahoma", "sans-serif"
+}
+TD {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; LINE-HEIGHT: 18px; FONT-FAMILY: "MS Shell Dlg", "Tahoma", "sans-serif"
+}
+DIV {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; LINE-HEIGHT: 18px; FONT-FAMILY: "MS Shell Dlg", "Tahoma", "sans-serif"
+}
+FORM {
+	FONT-SIZE: 12px; MARGIN: 0px; LINE-HEIGHT: 18px; FONT-FAMILY: MS Shell Dlg,tahoma
+}
+.del {
+	COLOR: red; TEXT-DECORATION: line-through
+}
+.marketprice {
+	FONT-WEIGHT: bold; COLOR: red; TEXT-DECORATION: line-through
+}
+.guopiprice {
+	COLOR: #aa0000; TEXT-DECORATION: none
+}
+.rightprice {
+	FONT-WEIGHT: bold; COLOR: red; TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.white {
+	COLOR: white
+}
+A.allwhite {
+	COLOR: white
+}
+A.allwhite:hover {
+	COLOR: red
+}
+A.allwhite:visited {
+	COLOR: white
+}
+.boldblue {
+	FONT-WEIGHT: bold; COLOR: blue
+}
+A.allblue {
+	COLOR: blue
+}
+A.allblue:link {
+	COLOR: blue
+}
+A.allblue:hover {
+	COLOR: red
+}
+A.allblue:visited {
+	COLOR: blue
+}
+.red {
+	COLOR: red
+}
+A.red {
+	COLOR: red
+}
+A.red:visited {
+	COLOR: red
+}
+A.red:link {
+	COLOR: red
+}
+A.red:hover {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A.blue:visited {
+	nbsp: 
+}
+.normal {
+	FONT-WEIGHT: normal; COLOR: black
+}
+.rightbold {
+	FONT-WEIGHT: bold; TEXT-ALIGN: right
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+A.bold {
+	FONT-WEIGHT: bold
+}
+#body_browse {
+	MARGIN: 0 0 0 0;PADDING:0 0 0 0; WIDTH: 970px;TEXT-ALIGN: left;clear: both;
+}
+#home_left DIV.pad {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#browse DIV.pad {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#bbs_right DIV.pad {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#my_right DIV.pad {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#home_left {
+	FLOAT: left; WIDTH: 190px; TEXT-ALIGN: left
+}
+#home_mid {
+	FLOAT: left; WIDTH: 590px; TEXT-ALIGN: center
+}
+#home_right {
+	FLOAT: right; WIDTH: 190px; TEXT-ALIGN: left
+}
+#position {
+	PADDING: 0px 0px 0px 0px; height:10px!important; HEIGHT: 5px; width:972px;clear : both;
+}
+#browse {
+	FLOAT: right; WIDTH: 765px; TEXT-ALIGN: left;clear : right;POSITION: relative
+}
+#browse_main {
+	FLOAT: left; WIDTH: 550px; TEXT-ALIGN: left;POSITION: relative;clear : both;
+}
+#browse_right {
+	FLOAT: right; WIDTH: 190px; TEXT-ALIGN: left;POSITION: relative;clear : right;
+}
+#body_bottom {
+	CLEAR: both; HEIGHT: 2px
+}
+UL.number_list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none;
+}
+UL.number_list LI A {
+	PADDING-LEFT: 14px
+}
+UL.number_list LI.b1 {
+	BACKGROUND: url(/images/global/sy4.jpg) no-repeat left 25%;
+}
+UL.number_list LI.bx {
+	COLOR: #000000; FONT-FAMILY: 宋体;
+}
+UL.number_list LI.bx A {
+	PADDING-LEFT: 4px; FONT-FAMILY: 宋体
+}
+DIV.hr {
+	CLEAR: both; BACKGROUND: url(/images/global/dotted_line_h_r.gif) white repeat-x left center; WIDTH: 560px; HEIGHT: 5px
+}
+
+DIV.sy_xinpintuijian {
+	BORDER-RIGHT: #cebcae 1px solid; BORDER-TOP: #cebcae 1px solid; BORDER-LEFT: #cebcae 1px solid; WIDTH: 190px; BORDER-BOTTOM: #cebcae 1px solid; HEIGHT: 500px
+}
+DIV.sy_xinpintuijian_font {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cc6600; LINE-HEIGHT: 35px; HEIGHT: 35px
+}
+DIV.sy_lanmu {
+	PADDING-LEFT: 23px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(/images/global/sy3a.gif); WIDTH: 188px; COLOR: white; PADDING-TOP: 10px; HEIGHT: 29px
+}
+DIV.lanmu_font {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #be6400; PADDING-TOP: 10px; HEIGHT: 30px
+}
+#topcommend{
+}
+#topcommend #newtop {
+	WIDTH: 191px;
+}
+#topcommend #newlist {
+	BORDER-RIGHT: #ccbcad 1px solid; BORDER-TOP: 0px; BORDER-LEFT: #ccbcad 1px solid; WIDTH: 190px; BORDER-BOTTOM: #ccbcad 1px solid
+}
+#topcommend #newlist A {
+	clor: #be6400
+}
+#topcommend #newlist #newmore {
+	MARGIN: auto; WIDTH: 186px; BORDER-BOTTOM: #ccbcad 1px dashed; HEIGHT: 24px
+}
+#topcommend #newlist #newmore A {
+	COLOR: #be6400
+}
+#topcommend #newlist #newmore .title {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 80px; COLOR: #cc6600
+}
+#topcommend #newlist #newmore .more {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #cc6600; PADDING-TOP: 3px
+}
+#topcommend #newlist .newlist {
+	PADDING-BOTTOM: 4px; MARGIN: 4px auto 0px; OVERFLOW: hidden; WIDTH: 188px; BORDER-BOTTOM: #ccbcad 1px dashed
+}
+#topcommend #newlist .newlist2 {
+	MARGIN: 5px auto 0px; OVERFLOW: hidden; WIDTH: 188px
+}
+#topcommend #newlist .newimg {
+	FLOAT: left; WIDTH: 80px; HEIGHT: 80px
+}
+#topcommend #newlist .newtitle {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 3px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FLOAT: right; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 107px; COLOR: #333333; PADDING-TOP: 5px; HEIGHT: 20px
+}
+#topcommend #newlist .newtitle A {
+	FONT-WEIGHT: bold; COLOR: #4d4d4d
+}
+#topcommend #newlist .newtitle A:hover {
+	COLOR: #ff5500
+}
+#topcommend #newlist .newcontent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 107px; COLOR: #666; PADDING-TOP: 5px; HEIGHT: 55px
+}
+#topcommend #newlist .price {
+	FONT-WEIGHT: bold; FLOAT: right; WIDTH: 107px; COLOR: #aa0000
+}
+#topcommend #newlist .texttitle A {
+	COLOR: #011254
+}
+#topcommend #newlist .texttitle {
+	PADDING: 5px 2px 2px 10px;
+}
+DIV.sy_dianhua {
+	PADDING-LEFT: 25px; FONT-WEIGHT: bold; BORDER-BOTTOM-COLOR: #ffffff; WIDTH: 165px; COLOR: #666666
+}
+#sy_biankuang {
+	BORDER-RIGHT: #c9e9f0 1px solid; BORDER-TOP: #c9e9f0 1px solid; BORDER-LEFT: #c9e9f0 1px solid; WIDTH: 190px; BORDER-BOTTOM: #c9e9f0 1px solid; font-color: #0000FF
+}
+#sy_biankuang A {
+	COLOR: #011254
+}
+#sy_biankuang .more {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #cc6600; PADDING-TOP: 3px
+}
+#browse_main #sy_lanmu_z {background: url( /images/global/sy6.gif );height: 31px;color: #BE6400;
+	font-size:16px;font-weight: bold;padding-left: 10px;line-height: 31px;TEXT-ALIGN: middle;padding-top: 5px;}
+#browse_main #sy_lanmu_z a:link {color:#BE6400;}
+#browse_main #sy_lanmu_z a{height: 31px;color: #BE6400;font-size:16px;font-weight: bold;padding-left: 10px;line-height: 31px;}	
+#browse_main #sy_lanmu_z a:visited {color:#BE6400;}
+
+#browse_main .goods_pic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; MARGIN-RIGHT: 0px;
+}
+#browse_main .goods_pic .detail {
+	 FLOAT: left; PADDING-RIGHT: 5px; PADDING-LEFT: 5px;PADDING-BOTTOM: 0px; WIDTH: 172px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#browse_main .goods_pic .detail .goods {
+	MARGIN-BOTTOM: 5px;HEIGHT: 115px;PADDING-RIGHT: 0px; PADDING-LEFT: 0px;BORDER-RIGHT: #c9c9c9 0px solid; BORDER-TOP: #c9c9c9 0px solid; DISPLAY: block; BORDER-LEFT: #c9c9c9 0px solid; WIDTH: 120px; TEXT-ALIGN: center;
+}
+#browse_main .goods_pic .detail H2 {
+	DISPLAY: block; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN: 0px 0px 0px 0px;PADDING:0 0 0 0;clear : both;
+}
+#browse_main .goods_pic .detail H2 A{ COLOR: #0328c1}
+#browse_main .goods_pic .detail H2 A:link { COLOR: #0328c1}
+#browse_main .goods_pic .detail H2 A:visited {COLOR: #0328c1}
+#browse_main .goods_pic .detail H2 A:hover {COLOR: #FF6600}
+#browse_main .goods_pic .detail H2 EM {
+	COLOR: #CC0000; FONT-STYLE: normal
+}
+#browse_main .goods_pic .emptybox {
+	CLEAR: left;
+}

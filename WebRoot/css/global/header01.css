@@ -1,0 +1,271 @@
+input,select,textarea{
+    font-size:12px;
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: auto; WIDTH: 985px; COLOR: #414141; PADDING-TOP: 0px; FONT-FAMILY: "宋体", Arial, Helvetica, sans-serif
+}
+form{
+	margin:0;
+	padding:0;
+}
+#Head{
+	width:965px;
+	margin-left: 0 0 0 0;
+}
+#Head #Logo{
+	width: 240px;
+	height: 31px;
+	float: left;
+	margin-left: 2px;
+}
+
+#Head #HeadTop{
+	position:relative;
+	width:965px;
+	margin:10px auto 10px;
+	text-align:left;
+}
+
+#Head #HeadNavBar{
+	float:right;
+	clear:right;
+	background: url(/images/global/header_mm_bk.gif) right top no-repeat;
+	width:510px;
+}
+#Head #HeadNavBar UL{
+	margin:0 auto;padding:0 0 0 25px;
+}
+#Head #HeadNavBar li{
+	float:left;
+	height:31px;
+	background: url(/images/global/header_mm_sep.gif) left center no-repeat;
+	display:inline;
+}
+
+#Head #HeadNavBar li.NoSep{
+	background: none;
+	margin-left: 5px;
+}
+
+#Head #HeadNavBar li a{
+	display:block;
+	padding: 0 6px 0 7px;
+	float:left;
+	height:31px;
+	line-height:31px;
+	color: #0f3a66;
+	font-size: 13px;
+}
+
+#MyBuyCar {
+	padding-left: 32px!important;
+	background: transparent url(/images/global/06baihuo_daohang_11.gif) no-repeat 8px 9px;
+}
+
+#Head #HeadNavBar li.phone{
+	display:block;
+	padding: 0 6px 0 7px;
+	float:left;
+	height:31px;
+	line-height:31px;
+	color: #000082;
+	font-size: 13px;
+}
+
+#Head #ChannelMenu{
+	width:965px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#Head #ChannelMenu UL{
+	margin:0 auto;padding:0 auto;
+}
+#Head #ChannelMenuItems{
+	width:520px;
+	height:33px;
+	margin:0 auto;
+	clear : both;
+}
+#Head #ChannelMenuItems li{
+	float:left;
+	height:33px;
+	margin-right:2px;
+	LIST-STYLE-TYPE: none;
+}
+#Head #ChannelMenuItems a{
+	display:block;
+	float:left;
+	height:33px;
+	background:transparent url(/images/global/cm_l.gif) left top no-repeat;
+	text-decoration:none;
+}
+#Head #ChannelMenuItems a span{
+	display:block;
+	float:left;
+	height:22px!important;
+	height: 22px;
+	height /*ie55*/: 33px;
+	padding:11px 12px 0;
+	background:transparent url(/images/global/cm_r.gif) right top no-repeat;
+	text-align:center;
+	color:#000;
+	font-style:normal;
+	cursor:pointer;
+	cursor:hand;
+	font-size: 14px;
+}
+
+#Head #ChannelMenuItems a:hover{
+	background:transparent url(/images/global/cm_hov_l.gif) left -3px no-repeat;
+}
+#Head #ChannelMenuItems a:hover span{
+	background:transparent url(/images/global/cm_hov_r.gif) right -3px no-repeat;
+}
+
+#Head #ChannelMenuItems li#MenuHome a span{
+	padding: 11px 20px 0;
+}
+
+#Head #SearchBox{
+	text-align:left;
+	height:58px;
+	background:transparent url(/images/global/searchbox_tab_left01.gif) 0 0 no-repeat;
+	background-color:#33A8CC;
+}
+#Head #SearchBox a{
+	text-decoration:underline;
+	color:#7a0b0b;
+}
+#Head #SearchBoxTop{
+	width: 965px;
+	float: left;
+	height:34px;
+	overflow: hidden;	
+}
+#Head #SearchForm{
+	float:left;
+	width:965px;
+	height:34px;
+    TEXT-ALIGN: center
+}
+#Head #SearchForm #q{
+	width:220px !important;
+	width:225px;
+}
+#Head #SearchForm #search{
+	margin-left:23px;
+}
+#Head #SearchForm #DoSearch{
+	width:60px;
+}
+#Head #SearchForm form{
+	display:block;
+	padding:7px 0 0 10px !important;
+	padding:6px 0 0 10px;
+	padding /* */:5px 0 0 10px;  
+}
+
+#Head #SearchForm form .name{
+	background: transparent url(/images/global/searchimg.gif) 0 0 no-repeat;
+	font-weight:bold;
+	color:#FFF;
+	font-size: 14px;
+	PADDING-LEFT: 25px;
+}
+
+#Head #HotKeywords{
+	float:left;
+	text-indent:8px;
+	width:965px;
+	height:24px;
+	margin-left:3px;
+	overflow:hidden;
+	background:transparent url(/images/global/searchbox_tab_center.gif) 0 0 repeat-x;
+}
+#Head #HotKeywords .B a{
+	text-decoration: none;
+}
+#Head #HotKeywords ul li{
+	float:left;
+	white-space:nowrap;
+	font-weight:normal;
+	margin-top:6px;
+	margin-right:5px;
+	color:#000;
+	LIST-STYLE-TYPE: none;
+}
+#Head #HotKeywords li span{
+	color:#000;
+}
+
+#Head #HotKeywords ul li a{
+	color:#0328c1;
+	font-weight:normal;
+}
+#Head #HotKeywords ul li a:link,#Head #HotKeywords ul li a:visited{
+	color:#0328c1;
+    text-decoration: none;
+}
+#Head #HotKeywords ul li a:hover,#Head #HotKeywords ul li a:active{
+	color:#0328c1;
+    text-decoration:underline;
+}
+
+body.CurHome ul#ChannelMenuItems li#MenuHome a, body.CurHome ul#ChannelMenuItems li#MenuHome a:hover{background:url(/images/global/cm_act_l.gif) left top no-repeat;}
+body.CurHome ul#ChannelMenuItems li#MenuHome a span, body.CurHome ul#ChannelMenuItems li#MenuHome a:hover span{background:transparent url(/images/global/cm_act_r.gif) right top no-repeat;font-weight:bold;color:#FFF;}
+
+body.ProducTypeHome1 ul#ChannelMenuItems li#ProducType1Home a, body.ProducTypeHome1 ul#ChannelMenuItems li#ProducType1Home a:hover{background:url(/images/global/cm_act_l.gif) left top no-repeat;}
+body.ProducTypeHome1 ul#ChannelMenuItems li#ProducType1Home a span, body.ProducTypeHome1 ul#ChannelMenuItems li#ProducType1Home a:hover span{background:transparent url(/images/global/cm_act_r.gif) right top no-repeat;font-weight:bold;color:#FFF;}
+
+body.ProducTypeHome2 ul#ChannelMenuItems li#ProducType2Home a, body.ProducTypeHome2 ul#ChannelMenuItems li#ProducType2Home a:hover{background:url(/images/global/cm_act_l.gif) left top no-repeat;}
+body.ProducTypeHome2 ul#ChannelMenuItems li#ProducType2Home a span, body.ProducTypeHome2 ul#ChannelMenuItems li#ProducType2Home a:hover span{background:transparent url(/images/global/cm_act_r.gif) right top no-repeat;font-weight:bold;color:#FFF;}
+
+body.ProducTypeHome3 ul#ChannelMenuItems li#ProducType3Home a, body.ProducTypeHome3 ul#ChannelMenuItems li#ProducType3Home a:hover{background:url(/images/global/cm_act_l.gif) left top no-repeat;}
+body.ProducTypeHome3 ul#ChannelMenuItems li#ProducType3Home a span, body.ProducTypeHome3 ul#ChannelMenuItems li#ProducType3Home a:hover span{background:transparent url(/images/global/cm_act_r.gif) right top no-repeat;font-weight:bold;color:#FFF;}
+
+body.ProducTypeHome8 ul#ChannelMenuItems li#ProducType8Home a, body.ProducTypeHome8 ul#ChannelMenuItems li#ProducType8Home a:hover{background:url(/images/global/cm_act_l.gif) left top no-repeat;}
+body.ProducTypeHome8 ul#ChannelMenuItems li#ProducType8Home a span, body.ProducTypeHome8 ul#ChannelMenuItems li#ProducType8Home a:hover span{background:transparent url(/images/global/cm_act_r.gif) right top no-repeat;font-weight:bold;color:#FFF;}
+
+body.MyAccount ul#ChannelMenuItems li#MyAccountHome a, body.MyAccount ul#ChannelMenuItems li#MyAccountHome a:hover{background:url(/images/global/cm_act_l.gif) left top no-repeat;}
+body.MyAccount ul#ChannelMenuItems li#MyAccountHome a span, body.MyAccount ul#ChannelMenuItems li#MyAccountHome a:hover span{background:transparent url(/images/global/cm_act_r.gif) right top no-repeat;font-weight:bold;color:#FFF;}
+
+.publish_page_bottom{clear : both; width:970px; height:128px; padding:20px 10px 5px 0}
+.publish_page_bottom a:link,.publish_page_bottom a:visited{ color:#0041D3; text-decoration:none}
+.publish_page_bottom a:hover{ color:#ff7000; text-decoration:underline}
+.publish_page_bottom a:active{ color:#bc2931; text-decoration:underline}
+.publish_page_bottom *{padding:0;margin:0;}
+
+.publish_page_bottom .b_middle{width:960px;height:127px;float:left;color:#414141;text-align: left;border-collapse:collapse; border-top:solid 1px #cfcfcf}
+.publish_page_bottom .b_middle .title{ width:143px; padding-top:6px; padding-bottom:3px; background:url(/images/global/bj_red.gif) no-repeat 42px 12px}
+.publish_page_bottom .b_middle td{ padding-left:50px; background:url(/images/global/bj_blue.gif) no-repeat 42px 6px; font-size:12px}
+.publish_page_bottom .b_middle h2{ font-size:12px; font-weight:normal}
+.publish_page_bottom .b_middle .bj_no{ background:none}
+.publish_page_bottom .b_middle .width_1{ padding-left:80px; background:url(/images/global/bj_blue.gif) no-repeat 70px 6px}
+.publish_page_bottom .b_middle .t2{background:url(/images/global/bj_red.gif) no-repeat 70px 12px}
+.publish_page_bottom .b_middle .width_2{ width:130px; padding-left:30px; background:url(/images/global/bj_blue.gif) no-repeat 22px 6px}
+.publish_page_bottom .b_middle .t3{background:url(/images/global/bj_red.gif) no-repeat 22px 12px}
+.publish_page_bottom .b_right{ width:970px; height:5px; no-repeat; clear : both}
+
+.publish_bottom_message{ width:970px;text-align:center; height:22px; font-size:12px}
+.publish_bottom_message a:link,.publish_bottom_message a:visited{ color:#0041D3; text-decoration:none}
+.publish_bottom_message a:hover{ color:#ff7000; text-decoration:underline}
+.publish_bottom_message a:active{ color:#bc2931; text-decoration:underline}
+.publish_bottom_message *{padding:0;margin:0}
+
+.publish_bottom_message ul{ list-style:none; margin-left:280px}
+.publish_bottom_message ul li{ float:left; width:83px; background:url(/images/global/bj_gray.gif) right no-repeat; padding-top:5px; height:17px}
+.publish_bottom_message ul .m_right{ background:none; padding-right:0}
+
+.publish_bottom_message2{ width:970px; height:28px; padding:0px 0 20px 0; font-size:12px;}
+.publish_bottom_message2 a:link,.publish_bottom_message2 a:visited{ color:#0041D3; text-decoration:none}
+.publish_bottom_message2 a:hover{ color:#ff7000; text-decoration:underline}
+.publish_bottom_message2 a:active{ color:#bc2931; text-decoration:underline}
+.publish_bottom_message2 *{padding:0;margin:0}
+.publish_bottom_message2 img{border:0}
+
+
+.publish_bottom_message2 .copyright{width:560px;height:10px;padding:10px 15px 0 0px;text-align:right;color:#414141;float:left;font-size:12px;}
+.publish_bottom_message2 .validate{ width:180px; height:10px; float:left}
+.publish_bottom_message2 .validate img{ float:left}
+.publish_bottom_message2 .validate p{ float:left; padding:12px 0 0 5px}

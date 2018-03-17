@@ -1,0 +1,118 @@
+body,input,select,textarea{
+    font-size:12px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	text-align:center;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+#Head {
+	clear : both;
+	height: 45px !important;
+}
+
+#Head #HeadTop{
+	position:relative;
+	width:760px;
+	margin:10px auto 10px;
+	text-align:left;
+	clear : both;
+}
+#Head  #HeadTop #Logo{
+	width: 240px;
+	height: 31px;
+	float: left;
+	margin-left: 2px;
+}
+#Head #HeadNavBar UL{
+	margin:0 auto;padding:0 0 0 25px;
+}
+#Head #HeadNavBar{
+	float:right;
+	clear:right;
+	background: url(/images/global/header_mm_bk.gif) right top no-repeat;
+	width:510px;
+}
+
+#Head #HeadNavBar li{
+	float:left;
+	height:31px;
+	background: url(/images/global/header_mm_sep.gif) left center no-repeat;
+	display:inline;
+}
+
+#Head #HeadNavBar li.NoSep{
+	background: none;
+	margin-left: 5px;
+}
+
+#Head #HeadNavBar li a{
+	display:block;
+	padding: 0 6px 0 7px;
+	float:left;
+	height:31px;
+	line-height:31px;
+	color: #0f3a66;
+	font-size: 13px;
+}
+
+#MyBuyCar {
+	padding-left: 32px!important;
+	background: transparent url(/images/global/06baihuo_daohang_11.gif) no-repeat 8px 9px;
+}
+
+#Head #HeadNavBar li.phone{
+	display:block;
+	padding: 0 6px 0 7px;
+	float:left;
+	height:31px;
+	line-height:31px;
+	color: #000082;
+	font-size: 13px;
+}
+
+.publish_page_bottom{clear : both;  width:760px; height:128px; padding:20px 0 15px 0;}
+.publish_page_bottom a:link,.publish_page_bottom a:visited{ color:#0041D3; text-decoration:none}
+.publish_page_bottom a:hover{ color:#ff7000; text-decoration:underline}
+.publish_page_bottom a:active{ color:#bc2931; text-decoration:underline}
+.publish_page_bottom *{padding:0;margin:0}
+
+.publish_page_bottom .b_middle{height:127px;float:left;color:#414141;text-align: left;border-collapse:collapse; border-top:solid 1px #cfcfcf}
+.publish_page_bottom .b_middle .title{ width:143px; padding-top:6px; padding-bottom:3px; background:url(/images/global/bj_red.gif) no-repeat 5px 12px}
+.publish_page_bottom .b_middle td{ padding-left:15px; background:url(/images/global/bj_blue.gif) no-repeat 5px 6px; font-size:12px}
+.publish_page_bottom .b_middle h2{ font-size:12px; font-weight:normal}
+.publish_page_bottom .b_middle .bj_no{ background:none}
+.publish_page_bottom .b_middle .width_1{ padding-left:80px; background:url(/images/global/bj_blue.gif) no-repeat 70px 6px}
+.publish_page_bottom .b_middle .t2{background:url(/images/global/bj_red.gif) no-repeat 70px 12px}
+.publish_page_bottom .b_middle .width_2{ width:130px; padding-left:30px; background:url(/images/global/bj_blue.gif) no-repeat 22px 6px}
+.publish_page_bottom .b_middle .t3{background:url(/images/global/bj_red.gif) no-repeat 22px 12px}
+.publish_page_bottom .b_right{ width:760px; height:5px; no-repeat; float:left}
+
+.publish_bottom_message{ width:760px;text-align:center; height:22px; font-size:12px}
+.publish_bottom_message a:link,.publish_bottom_message a:visited{ color:#0041D3; text-decoration:none}
+.publish_bottom_message a:hover{ color:#ff7000; text-decoration:underline}
+.publish_bottom_message a:active{ color:#bc2931; text-decoration:underline}
+.publish_bottom_message *{padding:0;margin:0}
+
+.publish_bottom_message ul{ list-style:none; margin-left:160px}
+.publish_bottom_message ul li{ float:left; width:83px; background:url(/images/global/bj_gray.gif) right no-repeat; padding-top:5px; height:17px}
+.publish_bottom_message ul .m_right{ background:none; padding-right:0}
+
+.publish_bottom_message2{ width:760px; height:28px; padding:8px 0 20px 0; font-size:12px;}
+.publish_bottom_message2 a:link,.publish_bottom_message2 a:visited{ color:#0041D3; text-decoration:none}
+.publish_bottom_message2 a:hover{ color:#ff7000; text-decoration:underline}
+.publish_bottom_message2 a:active{ color:#bc2931; text-decoration:underline}
+.publish_bottom_message2 *{padding:0;margin:0}
+.publish_bottom_message2 img{border:0}
+
+
+.publish_bottom_message2 .copyright{width:450px;height:12px;padding:5px 15px 0 0px;text-align:right;color:#414141;float:left;font-size:12px;}
+.publish_bottom_message2 .validate{ width:180px; height:48px; float:left}
+.publish_bottom_message2 .validate img{ float:left}
+.publish_bottom_message2 .validate p{ float:left; padding:5px 0 0 5px}

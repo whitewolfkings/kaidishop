@@ -1,0 +1,22 @@
+#Content{
+	width:760px;
+	margin:5px auto;
+	text-align:left;
+	clear:both;
+}
+.WarningMsgBoard{
+	padding:5px 5px 5px 120px;
+	background:transparent url(/images/global/standard_msg_ok_big.gif) 15px 15px no-repeat;
+	line-height:1.8em;
+}
+.WarningMsgBoard{
+	background-image:url(/images/global/nofind.gif);
+}
+
+h1{
+	clear:both;
+	font-family:arial,sans-serif;
+	font-size:16px;
+	line-height:40px;
+	margin-bottom:20px;
+}

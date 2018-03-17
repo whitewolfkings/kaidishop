@@ -1,0 +1,109 @@
+.OkMsg{
+	padding:5px 5px 5px 25px;
+	border:1px solid #00BE00;
+	background:#E6FFE6 url(/images/login/standard_msg_ok.gif) 5px 5px no-repeat;
+	color:#000;
+}
+.WarningMsg{
+	padding:5px 5px 5px 25px;
+	border:1px solid #00A8FF;
+	background:#E2F5FF url(/images/login/standard_msg_warning.gif) 5px 5px no-repeat;	
+	color:#000;
+}
+.ErrorMsg{
+	padding:5px 5px 5px 25px;
+	border:1px solid #F60;
+	background:#FFF2E9 url(/images/login/standard_msg_error.gif) 5px 5px no-repeat;	
+	color:#000;
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+.font12 {
+	FONT-SIZE: 12px
+}
+.font14 {
+	FONT-SIZE: 14px
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A.buyAction {
+	FONT-WEIGHT: bold; COLOR: #996633
+}
+.subnav {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 15px
+}
+A.subnav:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: none
+}
+A.subnav:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: none
+}
+A.subnav:active {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: none
+}
+A.subnav:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+.white {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.red {
+	COLOR: #b80000
+}
+.concolor {
+	COLOR: #154278
+}
+DIV.content {
+	MARGIN: 0.5em 0px 0em 25px
+}
+.eyebrow {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.h3color {
+	COLOR: #cc6600
+}
+.small {
+	FONT-SIZE: x-small
+}
+.sans {
+	FONT-SIZE: 14px
+}
+.price {
+	COLOR: #990000; FONT-FAMILY: arial,verdana,helvetica,sans-serif
+}
+.price {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.tiny {
+	FONT-SIZE: 12px; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.h1 {
+	FONT-SIZE: 14px; COLOR: #cc6600
+}
+HR.bucketDivider {
+	CLEAR: left
+}
+.tiny1 {
+	FONT-SIZE: xx-small; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.listprice {
+	TEXT-DECORATION: line-through
+}
+.boxmidsub {
+	BORDER-RIGHT: #e4e4e4 0px solid; BORDER-TOP: #e4e4e4 0px solid; PADDING-BOTTOM: 1px; BORDER-LEFT: #e4e4e4 0px solid; BORDER-BOTTOM: #e4e4e4 1px solid
+}
+.STYLE3 {font-weight: bold; font-size: 14px;}

@@ -1,0 +1,105 @@
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+BODY {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+.font12 {
+	FONT-SIZE: 12px
+}
+.font14 {
+	FONT-SIZE: 14px
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #003399; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+A.buyAction {
+	FONT-WEIGHT: bold; COLOR: #996633
+}
+.subnav {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 15px
+}
+A.subnav:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: none
+}
+A.subnav:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: none
+}
+A.subnav:active {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: none
+}
+A.subnav:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 155%; TEXT-DECORATION: underline
+}
+.white {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.red {
+	COLOR: #b80000
+}
+.concolor {
+	COLOR: #154278
+}
+DIV.content {
+	MARGIN: 0.5em 0px 0em 25px
+}
+.eyebrow {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.h3color {
+	COLOR: #cc6600
+}
+.small {
+	FONT-SIZE: x-small
+}
+.sans {
+	FONT-SIZE: 14px
+}
+.price {
+	COLOR: #990000; FONT-FAMILY: arial,verdana,helvetica,sans-serif
+}
+.price {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.tiny {
+	FONT-SIZE: 12px; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.h1 {
+	FONT-SIZE: 14px; COLOR: #cc6600
+}
+HR.bucketDivider {
+	CLEAR: left
+}
+.listprice {
+	TEXT-DECORATION: line-through
+}
+#bottom {
+	DISPLAY: block; BACKGROUND: #ffffff; WIDTH: 100%
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+.STYLE1 {color: #333333}
+
+.OkMsg{
+	padding:10px 0px 5px 0px;
+	border:1px solid #00BE00;
+	color:#000;width:"550px";
+}
+
+.cck{
+	margin:0px 0px 8px 0px;
+}
+#errorMessage{color:#3366FF;padding:10px 0px 0px 20px;}

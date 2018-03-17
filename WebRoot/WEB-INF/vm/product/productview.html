@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/css/global/header01.css" rel="stylesheet" type="text/css"/>
+<link href="/css/product/product.css" rel="stylesheet" type="text/css"/>
+<link href="/css/global/topcommend.css" rel="stylesheet" type="text/css"/>
+<SCRIPT language=JavaScript src="/js/FoshanRen.js"></SCRIPT>
+<SCRIPT language=JavaScript src="/js/xmlhttp.js"></SCRIPT>
+<title>${product.name}-巴巴运动网</title>
+<meta name="Keywords" content="${product.name}" />
+</head>
+ 
+<body>
+<!--\#include virtual="/WEB-INF/page/share/Head.jsp" -->
+<div id="ContentBody"><!-- 页面主体 -->
+	 	 <div id="position"> 您现在的位置：<a href="/" name="linkHome">凯商城</a> <span id="uc_cat_spnPath"> &gt;&gt; <a href='/product/list.do?typeid=${product.type.typeid}'>${product.type.name}</a> &gt;&gt; <em>${product.name}</em></span></div>
+ <div class="browse_left"><!-- 页面主体 左边 --> 
+        <!-- 浏览过的商品 -->
+	 <div class="browse">
+	      <div class="browse_t">您浏览过的商品</div>
+	      <ul><div id="historyaccess"></div></ul>
+	 </div>
+	<!--精品推荐 start -->
+	<DIV id="topcommend" align="left">
+	       <DIV id="newtop"><IMG height=13 src="/images/global/sy2.gif" width=192></DIV>
+	       <DIV id="newlist">
+		  <DIV id="newmore">
+		    <DIV class="title">精品推荐</DIV>
+		  </DIV>
+			<span id="commenddetail">
+			</span>
+		</DIV>
+	</DIV>
+</div><!-- 页面主体 左边end -->
+	
+ <div id="Right" ><!-- 页面主体 右边 -->
+<form action="/shopping/cart.do" method="post" name="cart">
+<INPUT TYPE="hidden" NAME="productid" value="${product.id}" />
+<div id="browse_left">
+ 
+							<div class="right_left">
+								<div id="main_image"  style="cursor:hand;background:url($product.styles.iterator().next().image140FullPath) center center no-repeat"><img src="/images/global/product_blank.gif" WIDTH="200" HEIGHT="240"/></div>
+								<img src="/images/global/zoom+.gif" style="cursor:hand;"/>
+							</div>
+							
+							<div class="right_right">									
+									<div class="right_title"><b>${product.name}</b></div>
+									<div class="right_desc">
+											<ul>
+												<li class="li2">商品编号：${product.id}<font color="#CC0000">（电话订购专用）</font></li>
+												#if($!{product.brand}) <li>品牌：$product.brand.name</li> #end																																		</ul>
+									</div>
+									<div class="right_desc">
+											#if($product.styles.size()==1)
+											<INPUT TYPE="hidden" NAME="styleid" value="$product.styles.iterator().next().id" />
+											<li>颜色：红色</li>
+											#else
+											 <li>颜色：<SELECT name="styleid">#foreach($color in $product.styles)
+												<option value="$color.id">$color.name</option>
+											  #end </SELECT></li>
+											#end										  
+									</div>
+									<ul>
+										<li>市场价：<s>${product.marketprice}</s> 元 <font color='#ff6f02'>本站价：<b>${product.sellprice} 元</b></font> 节省：<font color='#ff6f02'>${product.savedPrice}</font> 元										</li>
+									  	<li class="right_img"><INPUT TYPE="image" SRC="/images/global/sale.gif"></li>
+																				<li class="guopiprice">
+										[ <IMG src="/images/global/2j4.gif" border="0"/>&nbsp;<A href="http://www.babasport.com/cache/news/6/9.shtml" target="_blank">配送说明</A> ]&nbsp;&nbsp;&nbsp;&nbsp;[ <IMG src="/images/global/2j4.gif" border="0"/>&nbsp;<A href="http://www.babasport.com/cache/news/4/24.shtml" target="_blank">付款方式</A> ]
+										</li>
+									</ul>									
+							</div>
+</div>
+							<div id="browse_right"><div id="sy_biankuang">
+										<div class="sy_xinpintuijian_font">本站尚未开张</div>
+										<div class="sy_dianhua" style="line-height:150%"><font color="#FF0000">
+											全国：010-6466 3070</font><br/>MSN在线客服：babasport@sohu.com<br/>	
+										<font color="#3A8FAF">QQ在线客服：523429525</font></div>
+							</div></div>
+</form>
+							<div class='right_blank'></div><div class='right_title1'>商品说明</div><div class='right_content'>天意好好的瑜伽球</div>
+ 
+ </div><!-- 页面主体 右边 end -->
+</div><!-- 页面主体 end -->
+ <!--\#include virtual="/WEB-INF/page/share/Foot.jsp" -->
+</body>
+</html>
